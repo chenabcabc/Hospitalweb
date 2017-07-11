@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>新闻中心</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" class="cur">新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" >健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+
+    <div class="neibanner row">
+      <img src="images/news3.jpg">
+    </div>
+    
+
+    <div class="container-fluid newslist">
+    <div class="row">
+      <a href="newsdetail.html">
+        <div class="news-pic-content-detail col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+          <div class="row">
+
+            <div class="news-pic-detail-img col-md-4 col-sm-5 col-xs-5">
+              <img class="img-responsive center-block" src="images/201705.jpg" >
+            </div>
+
+            <div class="news-pic-right col-md-8 col-sm-7 col-xs-7">
+              <div class="news-pic-detail-title">我院接待省医院协会来院交流参观</div>
+              <div class="news-pic-detail-description">老王躺在病床上吃着水果，心情很好，精神也不错。谁也不会想到，就在半个多月前他刚刚在鬼门关前走了一遭。当时，老王因为气急胸闷住院，心功能很差，心脏超声提示左心射血分数只有30%(正常人60%以上)。因高度怀疑他有严重的冠心病，我们给他安排了冠脉造影术。</div>
+              <div class="news-pic-detail-time">2017-05-15</div>
+            </div>
+
+          </div>          
+        </div>
+      </a>
+    </div>
+    <div class="row">
+      <a href="newsdetail.html">
+        <div class="news-pic-content-detail col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+          <div class="row">
+
+            <div class="news-pic-detail-img col-md-4 col-sm-5 col-xs-5">
+              <img class="img-responsive center-block" src="images/201705.jpg" >
+            </div>
+
+            <div class="news-pic-right col-md-8 col-sm-7 col-xs-7">
+              <div class="news-pic-detail-title">我院接待省医院协会来院交流参观</div>
+              <div class="news-pic-detail-description">老王躺在病床上吃着水果，心情很好，精神也不错。谁也不会想到，就在半个多月前他刚刚在鬼门关前走了一遭。当时，老王因为气急胸闷住院，心功能很差，心脏超声提示左心射血分数只有30%(正常人60%以上)。因高度怀疑他有严重的冠心病，我们给他安排了冠脉造影术。</div>
+              <div class="news-pic-detail-time">2017-05-15</div>
+            </div>
+
+          </div>          
+        </div>
+      </a>
+    </div>
+    <div class="row">
+      <a href="newsdetail.html">
+        <div class="news-pic-content-detail col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+          <div class="row">
+
+            <div class="news-pic-detail-img col-md-4 col-sm-5 col-xs-5">
+              <img class="img-responsive center-block" src="images/201705.jpg" >
+            </div>
+
+            <div class="news-pic-right col-md-8 col-sm-7 col-xs-7">
+              <div class="news-pic-detail-title">我院接待省医院协会来院交流参观</div>
+              <div class="news-pic-detail-description">老王躺在病床上吃着水果，心情很好，精神也不错。谁也不会想到，就在半个多月前他刚刚在鬼门关前走了一遭。当时，老王因为气急胸闷住院，心功能很差，心脏超声提示左心射血分数只有30%(正常人60%以上)。因高度怀疑他有严重的冠心病，我们给他安排了冠脉造影术。</div>
+              <div class="news-pic-detail-time">2017-05-15</div>
+            </div>
+
+          </div>          
+        </div>
+      </a>
+    </div>
+    <div class="row">
+      <a href="newsdetail.html">
+        <div class="news-pic-content-detail col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+          <div class="row">
+
+            <div class="news-pic-detail-img col-md-4 col-sm-5 col-xs-5">
+              <img class="img-responsive center-block" src="images/201705.jpg" >
+            </div>
+
+            <div class="news-pic-right col-md-8 col-sm-7 col-xs-7">
+              <div class="news-pic-detail-title">我院接待省医院协会来院交流参观</div>
+              <div class="news-pic-detail-description">老王躺在病床上吃着水果，心情很好，精神也不错。谁也不会想到，就在半个多月前他刚刚在鬼门关前走了一遭。当时，老王因为气急胸闷住院，心功能很差，心脏超声提示左心射血分数只有30%(正常人60%以上)。因高度怀疑他有严重的冠心病，我们给他安排了冠脉造影术。</div>
+              <div class="news-pic-detail-time">2017-05-15</div>
+            </div>
+
+          </div>          
+        </div>
+      </a>
+    </div>
+
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

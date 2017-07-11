@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>健康教育</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/jiankanjiaoyuedit.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" >新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" class="cur">健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+    
+
+    <div class="neibanner row">
+      <img src="images/jiankanjiaoyu.jpg">
+    </div>
+
+    <div class="container newsdetail eightwbox">
+      <div class="dt-common-title-container">
+        <div class="dt-common-title-txt healthtitle" id="dt-common-title-txt">车厘子是哪里的特产 车厘子不能和什么一起吃</div>
+        <div class="dt-common-subtitle-container">
+          <div class="dt-common-date-txt" id="dt-common-date-txt">2017-06-02</div>
+        </div>
+      </div>
+      <div class="dt-common-img">
+        <img class="img-responsive center-block" src="images/health3.jpg">
+      </div>
+      <div class="dt-common-notice-container">
+            <p class="importantp">
+              车厘子是哪里的特产？
+            </p>
+            <p>
+              &nbsp; &nbsp;车厘子就是英语单词cherry（樱桃）的音译，它们在台湾、广东及香港被直译做“车厘子”。进口车厘子主要产自美国、加拿大、智利等美洲国家；国内产地主要在江苏南京、浙江诸暨、山东泰安等地，车厘子它不是指个小色红皮薄的中国樱桃，而是个大皮厚的进口樱桃。车厘子起源于小亚西亚，其生长周期与樱桃极为相似。
+            </p>
+            <p class="importantp">
+              车厘子是碱性还是酸性？
+            </p>
+            <p>
+              &nbsp; &nbsp;是碱性的食物，而且大多数水果都是属碱性的。【除了我知道的荔枝和桂圆是酸性的，吃多了会上火。】酸碱性不是靠我们的口感来判断的，而是看食物其中所罕有的矿物质成分。
+            </p>
+            <p class="importantp">
+              车厘子是几月份的水果？
+            </p>
+            <p>
+              &nbsp; &nbsp;车厘子一般是是6月中旬上市，美国在世界各地处于车厘子生产的领先地位，70％以上的美国车厘子来自于西北部。到了8月中旬出了高山地区的少量车厘子外，美国的车厘子就算完全了提供美食的使命。
+            </p>
+            <p class="importantp">
+              车厘子不能和黄瓜一起吃
+            </p>
+            <p>
+              &nbsp; &nbsp;众所周知车厘子属于水果中的“VC之王”其含有高量的维生素C，但是不能与黄瓜一起食用，因为黄瓜中含有的分解酶会降低车厘子中的VC，影响人体对VC的吸收。
+            </p>
+            <p class="importantp">
+              车厘子不能和胡萝卜一起吃
+            </p>
+            <p>
+              &nbsp; &nbsp;车厘子中含有大量的维生素C能够有效的治疗坏血病，而胡萝卜中含有一种抗坏血酸酶，它会降低维生素C对人体的功效，所以车厘子不能和胡萝卜一起吃。
+            </p>
+            <p class="importantp">
+              车厘子不能和动物肝脏一起吃
+            </p>
+            <p>
+              &nbsp; &nbsp;如果车厘子与动物肝脏一起食用，车厘子含有的维生素C会被动物肝脏中的铜、铁等离子氧化，这些维生素C会被氧化成脱氢维生素C，这样车厘子就丧失了原本的营养价值。
+            </p>
+            <p class="importantp">
+              车厘子不能热性食材一起吃
+            </p>
+            <p>
+              &nbsp; &nbsp;车厘子属于一种温性水果，且味甘。它不宜与热性食材一起吃，例如榴莲，它们同是属于热、温性食材类，一起食用会引起人体内的火气过旺，从而导致上火等症状。
+            </p>
+            
+
+
+      </div>
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

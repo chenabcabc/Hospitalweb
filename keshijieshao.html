@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>科室介绍</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/6_9.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html" class="cur">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" >新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" >健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+    
+
+    <div class="neibanner row">
+      <img src="images/yiliaotuandui2.jpg">
+    </div>
+
+    <div class="webbg webbgmti row">
+      <div class="web webleftbg row">
+        <div class="webleft">
+          <div class="leftclass">
+            <ul>
+              <li>
+                <span>
+                  <a id="about_2" href="tuanduigaikuang.html">团队概况</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_3" href="" class="cur">科室介绍</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="webright">
+          <div class="title">
+            <span>科室介绍</span>
+          </div>
+          <div class="about">
+            <a href="keshijieshaodetailnew.html">
+              <div class="subject-content-detail dt-hover-shadow">
+                <div class="subject-detail-img">
+                  <div class="subject-detail-img-name">急诊医学科</div>
+                </div>
+                <div class="subject-detail-title">急诊医学科</div>
+                
+                <div class="subject-detail-line"></div>
+                <div class="subject-detail-description">主任助理郑悦亮急诊科是医院重点学科，一个建制完备的临床一线科室，急救中心除能完成常规的急诊急救工作外，有能力应对各种突发事件和重大事故的医疗救援工作，并有完备的应急预案。科室目前共有50名医护人员。医疗团队中主任医师4人，副主任医师7人，主治医师9人，住院医师2人；其中博士学位5人，硕士学位11人。护理团队27人，其中副主任护师1人，主管护师4人。技师1人。为浙江大学医学院、杭州医学院、温州医科大学、浙江中医药大学的临床教学基地。</div>
+              </div>
+            </a>
+
+              
+        
+          </div>
+
+<nav aria-label="Page navigation" class="keshifenye">
+  <ul class="pagination pagination-lg">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+
+        </div>
+      </div>
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

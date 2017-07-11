@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>医院介绍</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html" class="cur">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" >新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" >健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+    
+
+    <div class="neibanner row">
+      <img src="images/intro.jpg">
+    </div>
+
+    <div class="webbg row">
+      <div class="web webleftbg row">
+        <div class="webleft">
+          <div class="leftclass">
+            <ul>
+              <li>
+                <span>
+                  <a id="about_1" href="#" class="cur">医院介绍</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_2" href="about2.html">管治机构</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_3" href="about4.html">发展历程</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="webright">
+          <!-- <div class="title">
+            <span>医院介绍</span>
+          </div> -->
+          <div class="about">
+            <h3>医院介绍</h3>
+            <p>
+              &nbsp; &nbsp; &nbsp; &nbsp;医院是目前广东省规模最大的集医疗、科研、教学、预防、保健、康复于一体的大型综合性三级甲等医院之一，隶属于广东省卫生和计划生育委员会。国家核辐射救治基地、国家紧急医学救援队、广东省急救指挥中心等18个国家级、省级机构挂靠我院。医院成立于1984年，占地面积251亩，开放床位2685张，职工2995人，高级职称506人。先后获得全国百佳医院、全国卫生系统先进集体和广东省文明单位等荣誉称号。2015年门急诊量208.83万人次，出院人数8.5万人次，手术量5.35万台次。
+            </p>
+            <p>
+              &nbsp; &nbsp; &nbsp; &nbsp;医院共有两个院区，并托管有三家分院。医院学科齐全，目前拥有1个国家临床重点专科（临床护理学），1个省级一流学科（临床医学），1个省级重点学科群（微创外科学科群），12个省级重点学科（实验诊断学、肝胆胰外科、神经康复学、肾脏免疫学、心胸外科、普外科、微创外科、危重病医学、放射科、胃肠胰外科、临床检验学、临床病理学），3个省部级重点实验室（广东省肿瘤分子诊断与个体化治疗研究重点实验室、广东省胃肠病学重点实验室、广东省器官移植重点研究实验室心脏移植分室）和6个卫生部首批内镜诊疗技术培训基地（普外科内镜、妇科内镜、骨关节内镜、泌尿内镜、消化内镜、先心介入治疗）。
+            </p>
+            <p>
+              &nbsp; &nbsp; &nbsp; &nbsp;医院设备先进，拥有达芬奇手术机器人、Biogragh/mCT-S（西门子）PET-CT、3.0T超高场磁共振、320排640层螺旋CT、伽玛刀治疗仪、美国Intralase iFSTM飞秒激光治疗仪、直线加速器、数字减影仪（DSA）等百余台先进诊治设备，为危重症及疑难杂症患者的诊治和医院科研创新打下了坚实的基础。
+            </p>
+            <p>
+              &nbsp; &nbsp; &nbsp; &nbsp;医院秉承着“仁爱、卓越、奉献、创新”的核心价值观和“关爱生命，患者至上”的服务理念，始终坚持以患者为中心和以员工为核心，致力于“常规疾病的规范诊疗中心、疑难危重疾病的会诊指导中心、先进医疗技术的传播辐射中心、临床和转化医学的研究中心、医学人才的培养培训中心和良好医患关系的示范中心”等六大中心建设，全院员工正以饱满的热情、开放的胸襟、昂扬的斗志、务实的作风，精诚团结，锐意进取，为“把医院建设成为百姓信赖、员工自豪、业界推崇的国内一流、具有国际影响力的临床研究型医院”这一宏伟目标而努力奋斗！
+            </p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

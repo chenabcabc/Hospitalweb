@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>健康教育</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/jiankanjiaoyuedit.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" >新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" class="cur">健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+    
+
+    <div class="neibanner row">
+      <img src="images/jiankanjiaoyu.jpg">
+    </div>
+
+    <div class="container newsdetail eightwbox">
+      <div class="dt-common-title-container">
+        <div class="dt-common-title-txt healthtitle" id="dt-common-title-txt">隔夜菜怎样吃才能安全又营养？</div>
+        <div class="dt-common-subtitle-container">
+          <div class="dt-common-date-txt" id="dt-common-date-txt">2017-06-01</div>
+        </div>
+      </div>
+      <div class="dt-common-img">
+        <img class="img-responsive center-block" src="images/health2.jpg">
+      </div>
+      <div class="dt-common-notice-container">
+            <p>
+              &nbsp;&nbsp;隔夜菜能吃吗？很多家庭在做饭时或多或少都留下一些隔夜菜，有人为了节俭不会随意扔掉，也有觉得隔夜菜不健康，因此最好还是扔掉。关于吃隔夜菜危害新闻报道我们也不时会看到，那么隔夜菜真的不能吃吗？未必。如果保存和再次加热处理的方法得当的话，隔夜菜还是可以放心吃的。那么隔夜菜要怎样吃才能安全又营养呢？
+            </p>
+            <p class="importantp">
+              隔夜菜要这样保存
+            </p>
+            <p class="importantp"> 
+              1.凉透后立即放冰箱
+            </p>
+            <p>
+              &nbsp; &nbsp;如果热食物突然进入低温环境，食物的热气会引起水蒸气凝结，促使霉菌生长，从而导致冰箱里的食物霉变;凉透后放入冰箱，因为冰箱有一定抑菌作用。
+            </p>
+            <p class="importantp">
+              2.分类储存
+            </p>
+            <p>
+              &nbsp; &nbsp;不同剩菜分类储存，可避免细菌交叉感染，科选择用干净的容器密闭储存，如保鲜盒、保鲜袋，或者把碗盘附上一层保鲜膜。
+            </p>
+            <p class="importantp">
+              3.存放时间不宜长
+            </p>
+            <p>
+              &nbsp; &nbsp;一般情况下，高温加热剩菜几分钟，可杀灭大部分致病菌。但存放时间超过一天，产生了亚硝酸盐以及黄曲霉素等，加热就起不到作用了。
+            </p>
+            <p class="importantp">
+              注意，这两种剩菜不能留
+            </p>
+            <p class="importantp">
+              1.凉菜
+            </p>
+            <p>
+              &nbsp; &nbsp;凉菜不论荤素最好都不要放隔夜，因为如果不经加热，其中的细菌不易被杀死，容易导致腹泻等不适。
+            </p>
+            <p class="importantp">
+              2.绿叶蔬菜
+            </p>
+            <p>
+              &nbsp; &nbsp;绿叶菜不仅亚硝酸盐含量高，而且最有价值的维生素和营养都已流失。其中，茎叶类蔬菜硝酸盐含量最高，瓜类蔬菜稍低，根茎类和花菜类居中，如果想多做一些蔬菜第二天热着吃，建议选择瓜类蔬菜。
+            </p>
+            
+
+
+      </div>
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

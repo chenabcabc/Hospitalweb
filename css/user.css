@@ -1,0 +1,323 @@
+.fl {
+	float: left;
+}
+
+.fr {
+	float: right;
+}
+
+/*---useryuyue1---*/
+.yuyueprogress {
+	margin: 20px 0;
+}
+
+.dept {
+	border: 5px solid #f3f3f3;
+    padding: 20px;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.item_title {
+	vertical-align: middle;
+    text-align: center;
+    background: #d4c62b;
+    color: white;
+    font-size: 20px;
+    line-height: 1.7;
+}
+
+.dep_show_box ul {
+	padding: 0;
+}
+
+.dep_show_box .col-xs-2 {
+	margin-bottom: 5px;
+    padding: 0 5px;
+}
+
+.dep_item {
+	margin-bottom: 10px;
+}
+
+
+
+
+/*---useryuyue2---*/
+.keshibox {
+	width: 960px;
+	margin: 20px auto;
+}
+
+.grade_week {
+    height: 65px;
+    border-top: 2px solid #e7e9ec;
+    border-bottom: 2px solid #e7e9ec;
+    background-color: #fff;
+}
+
+.grade_week .week_left {
+    width: 440px;
+    overflow: hidden;
+    line-height: 65px;
+    font-size: 18px;
+}
+
+.grade_week .week_left dt {
+    width: 220px;
+    line-height: inherit;
+    font-weight: 500;
+}
+
+.grade_week .week_left dt.intro {
+    width: 220px;
+}
+
+.grade_week .week_left dt, .grade_week .week_left dd {
+    float: left;
+}
+
+.grade_week .week_list {
+    padding: 0 25px;
+    overflow: hidden;
+    position: relative;
+    width: 513px;
+    height: 65px;
+}
+
+.week_list_ul {
+    width: 105%;
+    padding-left: 0;
+}
+
+.week_list_ul li {
+    float: left;
+    width: 67px;
+    height: 65px;
+    padding: 0 1px;
+    margin-left: -1px;
+}
+
+.wek_item {
+    width: 55px;
+    height: 53px;
+    margin: 5px;
+    padding-top: 2px;
+    overflow: hidden;
+    text-align: center;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.gre_doc {
+    width: 447px;
+}
+
+.doc-left-in {
+    height: 116px;
+    padding: 18px 0;
+    border-bottom: 1px solid #e7e9ec;
+    width: 100%;
+}
+
+.gre_doc .doc_info {
+    width: 190px;
+}
+
+.gre_doc .gre_doc_img {
+    float: left;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.gre_doc .doc-rgt-name {
+    display: inline;
+    float: left;
+    width: 100px;
+    height: 60px;
+    margin: 0 0 0 10px;
+}
+
+.gre_doc .doc_info span {
+    color: #aaa;
+    font-size: 13px;
+    line-height: 24px;
+}
+
+.doc-rgt-name p {
+    color: rgb(0, 147, 208);
+    font-size: 19px!important;
+    margin-top: 10px;
+}
+
+.gre_doc .doc_exp {
+    word-break: break-all;
+    padding-right: 12px;
+    width: 145px;
+}
+
+.gre_doc .doc_exp {
+    width: 230px;
+    height: 60px;
+    padding-right: 20px;
+    line-height: 21px;
+    color: #333;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+.gre_item .gre_doc_times {
+    width: 513px;
+}
+
+.gre-doc-times-list {
+    width: 100%;
+    height: 116px;
+    border-bottom: 1px solid #e7e9ec;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.gre_item .gre_doc_times li {
+    float: left;
+    width: 100%;
+    padding: 0px;
+    border-bottom: 1px dashed #e7e9ec;
+    height: 57px;
+}
+
+.gre_item .gre_doc_times li span {
+    float: left;
+    width: 25px;
+    height: 57px;
+    line-height: 28px;
+    text-align: center;
+    color: #aaa;
+    display: inline-block;
+}
+
+.gre_item .gre_doc_times li a {
+    float: left;
+    display: block;
+    width: 67px;
+    height: 56px;
+    border: 1px solid #fff;
+    margin-left: -1px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 14px;
+    color: rgb(0, 147, 208);
+}
+
+.gre_item .gre_doc_times li a.noVisit {
+    background-color: #fff;
+    cursor: default;
+}
+
+.dep_pages a:hover, .gre_item .gre_doc_times li a:hover, .yuyuebor:hover a {
+    background-color: #EEFAD7;
+    color: #59AA21;
+}
+
+.gre_item .gre_doc_times li.gre-doc-times-list-nobor {
+    border-bottom: none;
+}
+
+.gre_item .gre_doc_times li.gre-doc-times-list-nobor a {
+    height: 57px;
+}
+
+.btnback {
+    float: right;
+    margin: 20px 20px 15px 0;
+}
+
+.ProcessConfirmbox {
+    border: 5px solid #f3f3f3;
+    padding: 0px;
+    margin-bottom: 40px;
+}
+
+.table-bordered>tbody>tr>th {
+    border-right: 1px solid #FFF;
+    background: #ebebeb;
+    text-align: center;
+    font-weight: normal;
+    padding: 8px 0px;
+    font-size: 16px;
+}
+
+.ProcessConfirmbox h4 {
+    background: #1eb9ef;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 13px 0px;
+    text-align: center;
+    color: #fff;
+    margin: 0
+}
+
+.table-bordered>tbody>tr>td {
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 14px;
+    padding: 12px 0px;
+    text-align: center;
+}
+
+.ProcessConfirmbox span {
+    padding-left: 20px;
+    float:left; 
+}
+
+.importantdetail {
+    font-size: 16px;
+    color: #1eb9ef;
+    font-weight: bold;
+}
+
+.yuyueyanzhengmabox {
+    width: 120px;
+    height: 30px;
+    float: left;
+    margin-left: 20px;
+}
+
+.yuyuebtn {
+    width: 100px;
+}
+
+.ProcessConfirmbox .yuyuebtn {
+    margin: 50px 10px 10px;
+}
+
+.yuyuejilutable th {
+    border: 1px solid #dbdbdb !important;
+    font-weight: normal !important;
+    font-size: 16px !important;
+    background: #1eb9ef !important;
+    color: #FFF !important;
+    padding: 10px 0px !important;
+}
+
+.yuyuejilutable td {
+    font-size: 15px !important;
+    vertical-align: middle !important;
+}
+
+.gerenzhongxintitle {
+    margin: 30px 0 20px;
+    padding-left: 10px;
+    border-left: 6px solid #1eb9ef;
+}
+
+.yuyuejilutable {
+    margin-bottom: 35px;
+}
+
+.dep_item .btn-default:hover {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+}

@@ -1,0 +1,14 @@
+/*---导航栏下---*/
+@media screen and (max-width: 1044px) {
+    .navbg {
+      display: none;
+    }
+}
+
+/*---导航栏上---*/
+@media screen and (max-width: 1044px) {
+    .topright {
+      display: none;
+    }
+}
+

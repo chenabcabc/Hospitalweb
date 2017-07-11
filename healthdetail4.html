@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>健康教育</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/jiankanjiaoyuedit.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" >新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" class="cur">健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+    
+
+    <div class="neibanner row">
+      <img src="images/jiankanjiaoyu.jpg">
+    </div>
+
+    <div class="container newsdetail eightwbox">
+      <div class="dt-common-title-container">
+        <div class="dt-common-title-txt healthtitle" id="dt-common-title-txt">买荔枝记住选绿红相间的</div>
+        <div class="dt-common-subtitle-container">
+          <div class="dt-common-date-txt" id="dt-common-date-txt">2017-06-05</div>
+        </div>
+      </div>
+      <div class="dt-common-img">
+        <img class="img-responsive center-block" src="images/health4.jpg">
+      </div>
+      <div class="dt-common-notice-container">
+            <p>
+              &nbsp; &nbsp;与苹果、葡萄等水果相比，荔枝有很多优势，其中最重要的一点就是矿物质含量丰富，尤其是钾元素，每100克里有151毫克，而苹果和葡萄分别是119毫克和104毫克。不过，还是赶不上香蕉里的256毫克，但是从量上讲，吃荔枝分量超过香蕉很容易，所以，荔枝补钾效果应该不错。另外，荔枝中的B族维生素如核黄素、硫胺素、尼克酸等都超过苹果和葡萄很多。
+            </p>
+            <p class="importantp">
+              荔枝的品种有近百种
+            </p>
+            <p>
+              &nbsp; &nbsp;北方人最常吃的荔枝品种是“妃子笑”，凭借着杨贵妃的名气，这种荔枝的销量也最大。但很多人不知道，荔枝品种有近百种，按成熟季节也有早熟、中熟、晚熟之分。
+            </p>
+            <p>
+              &nbsp; &nbsp;国家二级公共营养师杨文娇说，广州从化是著名的“荔枝之乡”，这里最受欢迎的荔枝品种则是桂味、糯米糍。桂味的果实较尖，上面的刺有点扎手，果实甜、果核小，而糯米糍果实呈心形，甜味浓，吃起来软糯。桂味是荔枝的上好品种，但因流通成本、保鲜期等问题，一般在珠三角售卖，桂味有两个品种：全红和鸭头绿(荔枝壳顶上有一小片绿，就像鸭子头一样)，鸭头绿则更受欢迎。
+            </p>
+            <p>
+              &nbsp; &nbsp;荔枝离了树就会很快改变口感，要趁着新鲜吃。此外，水果入菜是粤菜特色，譬如荔枝虾，荔枝的甘甜配上虾的鲜香，非常美味。
+            </p>
+            <p class="importantp">
+              小心“保鲜水”泡荔枝
+            </p>
+            <p>
+              &nbsp; &nbsp;国家高级食品检验员王楠介绍，作为“水果之王”，荔枝口感香甜，但对保鲜的要求也最为苛刻。首先，因为荔枝含糖量高，采摘后，果实的呼吸作用比一般水果强，采摘后几天内，就会变得“人老色衰”。因此，荔枝采摘后，“一日色变，二日香变，三日味变，四日色香味尽去”。目前还没有好的方法将荔枝长期保鲜。
+            </p>
+            <p>
+              &nbsp; &nbsp;因此，一般都是采摘八成熟的果子，直接放进带冰袋的泡沫箱里，然后再运输到全国各地的市场里。但未成熟的荔枝外皮泛青绿色，影响销售，有些商贩就会用“保鲜水”(添加微量硫酸或盐酸水制成)浸泡或者喷洒荔枝，让荔枝变成好看的红色，购买时要提高警惕。
+            </p>
+            <p>
+              &nbsp; &nbsp;正常成熟的荔枝一般绿红相间，颜色呈不规则分布。如果全身发红，有些壳上的凸起点发黑，可能用“保鲜水”处理过。注意，大型超市售卖的荔枝一般会掺杂冰块或置于冷藏柜中，有利于保鲜，而没有低温保存措施的荔枝最好少买。
+            </p>
+            <p class="importantp">
+              小提示：
+            </p>
+            <p>
+              &nbsp; &nbsp;夏天喝碗荔枝绿豆汤也很清爽。简单做法就是在熬制绿豆汤的最后阶段，将去核的荔枝代替冰糖加入绿豆汤中，煮好的绿豆汤口感清甜，还含较为丰富的维生素，夏天喝很不错。荔枝现摘现吃口感最好，但不能多吃，根据个人体质，少则几颗，多则十几颗。
+            </p>
+            
+            
+
+
+      </div>
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

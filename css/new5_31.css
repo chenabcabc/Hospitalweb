@@ -1,0 +1,83 @@
+
+.containerban {
+    width: 1045px !important;
+}
+
+/*---userCenter 个人中心---*/
+.usertitle h3 {
+    background: url(../images/index21.png) no-repeat left center;
+    font-size: 24px;
+    color: #007bc4;
+    padding: 40px 0px 40px 45px;
+    line-height: 30px;
+    margin: 0;
+}
+
+.usertitle h3 span {
+    float: right;
+    font-size: 16px;
+    color: #666;
+}
+
+.usercenterbox {
+    height: 310px;
+    border: 1px solid #ebebeb;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.usercenterbox h4 {
+    border-top: 4px solid #1ddbc7;
+    padding: 15px 20px 15px 20px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.basicinf h4 {
+    border-top: 4px solid #39b54a;
+}
+
+.editpass h4 {
+    border-top: 4px solid #007bc4;
+}
+
+.usercenterbox img {
+    padding: 0 20px 25px 20px;
+}
+
+.basicinfcon {
+    text-align: left;
+    padding-left: 20px;
+}
+
+.usernav {
+    text-align: center;
+    width:initial;
+    border: 3px solid #eeeeee;
+    border-radius: 6px;
+}
+
+.userrightcon {
+    border: 3px solid #eeeeee;
+    border-radius: 6px;
+    margin-bottom: 40px;
+}
+
+.userrightcon h3 {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #e6e6e6;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 45px;
+    padding-top: 10px;
+}
+
+.uegroup {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.uegroup label {
+    font-weight: 500;
+}

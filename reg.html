@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>注册</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <div id="navbar" class="topright navbar-collapse collapse">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="usercenter.html">个人中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="useryuyue1.html">我要预约</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="yuyuejilu.html">最近预约记录</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="jibenxinxi.html">基本信息</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="xiugaimima.html">修改密码</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+
+    <div class="login container">
+      <div class="row">
+        <h3>注册</h3>
+        <div class="row reg">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="patientUserName" class="col-sm-4 control-label">用户名：</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="patientUserName" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="patientPassword" class="col-sm-4 control-label">密码：</label>
+              <div class="col-sm-4">
+                <input type="password" class="form-control" id="patientPassword" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="patientRealName" class="col-sm-4 control-label">真实姓名：</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="patientRealName" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="patientSex" class="col-sm-4 control-label">性别：</label>
+              <div class="col-sm-4">
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> 男
+                </label>
+                <label class="radio-inline">
+                  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> 女
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="patientIDCard" class="col-sm-4 control-label">ID卡号：</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="patientIDCard" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="patientPhone" class="col-sm-4 control-label">手机：</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="patientPhone" >
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="patientAddress" class="col-sm-4 control-label">地址：</label>
+              <div class="col-sm-4">
+                <input type="text" class="form-control" id="patientAddress" >
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-offset-4 col-sm-2">
+                <button type="submit" class="btn btn-primary">&nbsp;&nbsp;&nbsp;&nbsp;注&nbsp;&nbsp;册&nbsp;&nbsp;&nbsp;&nbsp;</button>
+              </div>
+              <div class="col-sm-2">
+                <button type="submit" class="btn btn-default">&nbsp;&nbsp;&nbsp;&nbsp;返&nbsp;&nbsp;回&nbsp;&nbsp;&nbsp;&nbsp;</button>
+              </div>
+            </div>
+          </form>
+
+          
+        </div>
+      </div>      
+    </div>
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

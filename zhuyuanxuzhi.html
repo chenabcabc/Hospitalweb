@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>住院须知</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/logoico.png">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <div class="logo">
+          <a href="">
+            <img src="images/logo7.png">
+          </a>
+        </div>
+        <!-- 移动端导航栏按钮 -->
+        <a class="btn btn-default phonenavlist" role="button" data-toggle="collapse" href="#collapseOut" aria-expanded="false" aria-controls="collapseOut">
+          <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
+        </a>
+
+        <div class="topright">
+          <div class="signapp">
+            <a class="btn btn-primary" href="#" role="button">预约</a>
+            <a class="btn btn-primary" href="login.html" role="button">登录</a>
+            <a class="btn btn-primary" href="#" role="button">后台管理</a>
+          </div>
+          <div class="search">
+            <div class="input-group">
+              <select class="form-control" style="width: 26%;border-bottom-left-radius: 25px;border-top-left-radius: 25px;">
+                <option value="">科室</option>
+                <option value="">医生</option>
+              </select>
+              <input type="text" class="form-control" placeholder="请输入关键字" style="width: 74%;">
+              <span class="input-group-btn">
+                <button class="btn btn-primary" type="button">搜索</button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="container-fluid navbg">
+        <div class="nav">
+          <ul class="jiaogaoliang xlk">
+            <li>
+              <span>
+                <a href="index.html">首 页</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="about.html">医院概况</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="about.html">医院介绍</a>
+                </p>
+                <p>
+                  <a href="about2.html">管治机构</a>
+                </p>
+                <p>
+                  <a href="about4.html">发展历程</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="tuanduigaikuang.html">医疗团队</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="tuanduigaikuang.html">团队概况</a>
+                </p>
+                <p>
+                  <a href="keshijieshao.html">科室介绍</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="news.html" >新闻中心</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="">科研教学</a>
+              </span>
+            </li>
+            <li>
+              <span>
+                <a href="medicalguide.html" class="cur">就医指南</a>
+              </span>
+              <div class="xcsubnav">
+                <p>
+                  <a href="yuyue.html">预约服务</a>
+                </p>
+                <p>
+                  <a href="yibao.html">医保政策</a>
+                </p>
+                <p>
+                  <a href="jiuyixuzhi.html">就医须知</a>
+                </p>
+                <p>
+                  <a href="zhuyuanxuzhi.html">住院须知</a>
+                </p>
+                <p>
+                  <a href="jiaotong.html">交通指南</a>
+                </p>
+                <p>
+                  <a href="dianhua.html">服务电话</a>
+                </p>
+              </div>
+            </li>
+            <li>
+              <span>
+                <a href="health.html" >健康教育</a>
+              </span>
+            </li>
+            <li class="last">
+              <span>
+                <a href="" >人才招聘</a>
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+<div class="collapse phonesubnav" id="collapseOut">
+  <ul>
+      <li>
+        <a class="phonesubnavFat" href="index.html">首页</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn1" aria-expanded="false" aria-controls="collapseIn1">医院概况</a>
+        <div class="collapse phonesubnavSub" id="collapseIn1">
+          <dl>
+            <dt>
+              <a href="about.html">医院介绍</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about2.html">管治机构</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="about4.html">发展历程</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn2" aria-expanded="false" aria-controls="collapseIn2">医疗团队</a>
+        <div class="collapse phonesubnavSub" id="collapseIn2">
+          <dl>
+            <dt>
+              <a href="tuanduigaikuang.html">团队概况</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="keshijieshao.html">科室介绍</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="news.html">新闻中心</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="">科研教学</a>
+      </li>
+      <li>
+        <a class="phonesubnavFat" data-toggle="collapse" href="#collapseIn4" aria-expanded="false" aria-controls="collapseIn4">就医指南</a>
+        <div class="collapse phonesubnavSub" id="collapseIn4">
+          <dl>
+            <dt>
+              <a href="yuyue.html">预约服务</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="yibao.html">医保政策</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiuyixuzhi.html">就医须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="zhuyuanxuzhi.html">住院须知</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="jiaotong.html">交通指南</a>
+            </dt>
+          </dl>
+          <dl>
+            <dt>
+              <a href="dianhua.html">服务电话</a>
+            </dt>
+          </dl>
+        </div>
+      </li>
+      <li>
+        <a class="phonesubnavFat" href="health.html">健康教育</a>
+      </li>
+  </ul>
+</div>
+
+    </nav>
+    
+
+    <div class="neibanner row">
+      <img src="images/jiuyizhinan.jpg">
+    </div>
+
+    <div class="webbg row">
+      <div class="web webleftbg row">
+        <div class="webleft">
+          <div class="leftclass">
+            <ul>
+              <li>
+                <span>
+                  <a id="about_2" href="yuyue.html">预约服务</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_3" href="yibao.html">医保政策</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_4" href="jiuyixuzhi.html">就医须知</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_5" href="zhuyuanxuzhi.html" class="cur">住院须知</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_4" href="jiaotong.html">交通指南</a>
+                </span>
+              </li>
+              <li>
+                <span>
+                  <a id="about_5" href="dianhua.html">服务电话</a>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="webright">
+          <div class="title">
+            <span>住院须知</span>
+          </div>
+          <div class="about jiuyizhinan">
+            <div class="yuyuebox">
+              <h4>享有的权利：</h4>
+              <p>（一）您享有医疗救治、预防保健服务的权利。</p>
+              <p>（二）我们会根据您的病情进行分级护理，您身体出现不适或需要帮助时，可直接呼叫或使用呼叫器告知医务人员，我们将及时为您提供医疗、护理服务。</p>
+              <p>（三）您享有知道病情、医疗措施、医疗风险的权利。</p>
+              <p>（四）需要实施手术、特殊检查、特殊治疗、使用贵重特殊的医用材料时，医务人员会及时向您说明医疗风险、替代医疗方案等情况，并取得您的书面同意。您对医生提出的手术、特殊检查、特殊治疗方案有知情选择权。</p>
+              <p>（五）我院尊重您的隐私权，您可以要求医生对您的病情进行保密；如有拒绝探视需求，可向医务人员说明并知会保安人员。</p>
+              <p>（六）您可以书面委托具有民事行为能力的人作为您的代理人，代您行使相关的知情选择权。</p>
+            </div>
+            <div class="yuyuebox">
+              <h4>应履行的义务：</h4>
+              <p>（一）您必须提供真实的个人信息及健康情况，包括姓名、性别、年龄、身份证号、地址、联系方式、本次患病的基本情况、既往病史、诊治经过、药物过敏史及其他有关详情等。这些信息会记录在患者信息系统、病历和手腕带上。信息系统及病历有严格的保密措施，手腕带会在您出院的时候销毁，不会导致您个人信息的外泄。凡冒用他人姓名就医、隐瞒病情而发生的延误诊治、医疗费用及纠纷等后果自负。</p>
+              <p>（二）您和家属共需留下2个联系电话，并保证24小时畅通，若因提供错误的联系方式或您和家属的原因无法联系造成的后果，责任自负。</p>
+              <p>（三）每天上午8-9点为医生查房、集中治疗时间。请您留守病房配合医生查房，遵从医嘱积极配合治疗。</p>
+              <p>（四）住院期间未经主管医师同意，您不得擅自到院外就诊、购药、私自请医师来我院会诊及采取其他治疗手段，否则由此发生的不良后果自负。</p>
+              <p>（五）我院会严格按照市社保部门颁布的有关规定进行诊疗护理。超出社保规定的用药目录和记账项目的药品、卫生材料、治疗检查项目均需自费，我院会严格执行文件精神和收费标准。为了您的治疗顺利进行，请您及时足额交纳医药费用，并按要求在规定时间内办理出院结账手续。</p>
+            </div>
+            
+            
+            
+
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    
+
+    <div class="Homefoot">
+      <div class="container">
+        © 2017 医院门户网站 版权所有
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

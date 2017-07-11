@@ -1,0 +1,103 @@
+/*---keshijieshaodetailnew修改---*/
+@media screen and (min-width: 1044px) {
+    .keshijieshaodetail {
+      width: 900px;
+    }
+}
+
+.experts-box p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.experts-box {
+  background-color: #f1f1f1;
+  border-bottom: 4px solid #007bc4;
+  margin-bottom: 25px;
+}
+
+.experts-name {
+  font-size: 16px;
+  color: #007bc4;
+}
+
+.experts-title {
+  color: #333;
+}
+
+/*---yishengjieshao---*/
+.doctor-info h3,.doctor-paiban h3 {
+  border-left: 5px solid #007bc4;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+.doctor-paiban .keshibox {
+  margin-top: 0;
+}
+
+.doctor-paiban h3 {
+  margin-bottom: 0;
+}
+
+.doctor-intro {
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.doctor-intro .col-xs-2 {
+  padding-right: 0;
+}
+
+.doctor-intro .col-xs-10 {
+  padding-left: 0;
+}
+
+.doctor-paiban .grade_week {
+  border: none;
+} 
+
+.doctor-paiban .grade_week .week_list {
+    left: 200px;
+    border-top: 2px solid #e7e9ec;
+    border-bottom: 2px solid #e7e9ec;
+}
+
+.doctor-paiban .gre_item .gre_doc_times {
+    left: 200px;
+    position: relative;
+}
+
+.doctor-info {
+  margin-bottom: 30px;
+}
+
+.doctor-paiban {
+  margin-bottom: 20px;
+}
+
+/*---yishengjieshao 移动端---*/
+@media screen and (max-width: 1044px) {
+    .doctor-paiban {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .doctor-intro .col-xs-2 {
+      padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .doctor-intro {
+      font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 749px) {
+    .doctor-info-phoneimg {
+      margin-bottom: 15px;
+    }
+}

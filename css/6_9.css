@@ -1,0 +1,49 @@
+/*---keshijieshao修改---*/
+.subject-content-detail {
+	height: 220px;
+}
+
+.subject-content-detail .subject-detail-title {
+	font-size: 22px !important;
+}
+
+.subject-content-detail .subject-detail-line {
+	top: 49px !important;
+	border-bottom: 2px solid #2ebfe1 !important;
+}
+
+.subject-content-detail .subject-detail-description {
+	font-size: 15px !important;
+    top: 50px !important;
+    line-height: 24px !important;
+    height: 155px !important;
+    overflow: hidden !important;
+}
+
+.keshifenye {
+	padding-right: 25px;
+    text-align: center;
+}
+
+.keshifenye ul {
+	margin-top: -25px;
+}
+
+
+
+@media screen and (max-width: 1044px) {
+    .keshifenye {
+      padding-right: 0 !important;
+    }
+}
+
+@media screen and (max-width: 1044px) {
+    .keshifenye ul {
+      margin-top: 0 !important;
+      margin-bottom: 0 !important;
+    }
+}
+
+
+/*------*/
+
