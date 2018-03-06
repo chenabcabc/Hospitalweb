@@ -4,5 +4,8 @@
 ## 部分页面展示
 网站主页 | 新闻中心
 ------|------
-![](./showpic/1.png) | ![](./showpic/3.jpg) 
-
+![](./showpic/1.png) | ![](./showpic/3.png)
+  
+网站主页 | 新闻中心
+------|------
+![](./showpic/1.png) | ![](./showpic/3.png) 
