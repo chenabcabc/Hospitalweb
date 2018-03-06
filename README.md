@@ -5,9 +5,4 @@
 网站主页 | 新闻中心
 ------|------
 ![](./showpic/1.png) | ![](./showpic/3.jpg) 
-网站主页 | 新闻中心
-------|------
-![](./showpic/1.png) | ![](./showpic/2.jpg) 
-![](./showpic/3.png) | ![](./showpic/4.jpg) 
-![](./showpic/5.png) | ![](./showpic/6.jpg) 
-![](./showpic/7.png) | ![](./showpic/8.png) 
+
