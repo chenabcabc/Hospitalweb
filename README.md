@@ -5,6 +5,6 @@
 网站主页 | 新闻中心
 ------|------
 ![](./showpic/1.png) | ![](./showpic/3.png)
-网站主页 | 新闻中心
+就医指南 | 预约挂号
 ------|------
-![](./showpic/1.png) | ![](./showpic/3.png) 
+![](./showpic/5.png) | ![](./showpic/7.png)
